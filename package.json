@@ -1,0 +1,30 @@
+{
+  "name": "slack-dominos",
+  "version": "1.0.0",
+  "description": "Slack bot for Domino's Pizza.",
+  "main": "slack-dominos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfogarty/slack-dominos.git"
+  },
+  "keywords": [
+    "slack",
+    "dominos",
+    "pizza"
+  ],
+  "author": "Brian Fogarty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bfogarty/slack-dominos/issues"
+  },
+  "homepage": "https://github.com/bfogarty/slack-dominos#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dominos": "^2.1.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0"
+  }
+}
