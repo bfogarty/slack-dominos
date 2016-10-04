@@ -1,6 +1,3 @@
-// load and require environment variables
-require('dotenv').config();
-
 // require dependencies
 var pizza = require('dominos');
 var express = require('express');
