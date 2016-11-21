@@ -7,11 +7,12 @@ var bodyParser = require('body-parser');
 var server = express();
 var port = process.env.PORT || 8080;
 var router = express.Router();
+var tokens = process.env.TOKENS.split(',');
 server.use(bodyParser.urlencoded({ extended: true }));
 
 // Verify request is coming from Slack
 router.use(function(req, res, next) {
-    if (req.body.token == process.env.TOKEN) {
+    if (tokens.includes(req.body.token)) {
         next();
     } else {
         res.sendStatus(403);
