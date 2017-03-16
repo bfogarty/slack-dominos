@@ -2,6 +2,9 @@
   "name": "slack-dominos",
   "version": "1.0.0",
   "description": "Slack bot for Domino's Pizza.",
+  "engines": {
+    "node": "7.x"
+  }
   "main": "slack-dominos.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
