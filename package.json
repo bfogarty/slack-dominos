@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Slack bot for Domino's Pizza.",
   "engines": {
-    "node": "7.x"
+    "node": "8.1.4"
   },
   "main": "slack-dominos.js",
   "scripts": {
